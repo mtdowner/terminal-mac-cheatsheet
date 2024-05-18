@@ -1,33 +1,10 @@
-# Terminal Cheatsheet for Mac (Basics)
-
-This cheatsheet is available in many languages. Since the translation rely on volunteers, the content between the available languages may vary. Choose one below:
-
-- [English Version](#english-version)
-- [Version en Español](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Español)
-- [Version Française](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Français)
-- [Wersja Polska](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Polskie)
-- [Versão em Português](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Português)
-- [Versioni Shqip](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Shqiptar)
-- [Phiên bản Tiếng Việt](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Tiếng%20Việt)
-- [Türkçe Versiyonu](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Türk)
-- [Русская Версия](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Русский)
-- [Українська Версія](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Українська)
-- [한국어판](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/한국어)
-- [中文版](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/中文)
-- [日本語](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/日本語)
-- [繁體中文版](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/繁體中文)
-- [Bahasa Indonesia](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Indonesia)
-- [Deutsch](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Deutsch)
-
-## English Version
-
-_Letters are shown capitalized for readability only._  _Capslock should be off._
-
+# Terminal Cheatsheet (Basics)
 ------------
+## SHORTCUTS
 
-### SHORTCUTS
+_Letters are shown capitalized for readability only._  _Capslock should be off_
 
-| Key/Command | Description |
+| Key | Description |
 | ----------- | ----------- |
 | Ctrl + A   | Go to the beginning of the line you are currently typing on.  This also works for most text input fields system wide.  Netbeans being one exception |
 | Ctrl + E   | Go to the end of the line you are currently typing on.  This also works for most text input fields system wide.  Netbeans being one exception |
@@ -51,9 +28,9 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | Esc + Backspace | Cut one word backwards using none alphabetic characters as delimiters |
 | Tab  | Auto-complete files and folder names |
 
-### CORE COMMANDS
+## CORE COMMANDS
 
-| Key/Command | Description |
+| Command | Description |
 | ----------- | ----------- |
 | cd [folder] | Change directory e.g. `cd Documents` |
 | cd |  Home directory |
@@ -73,7 +50,7 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | clear |  Clears the screen |
 | reset |  Resets the terminal display |
 
-### CHAINING COMMANDS
+## CHAINING COMMANDS
 
 | Key/Command | Description |
 | ----------- | ----------- |
@@ -82,15 +59,13 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | [command-a] \|\| [command-b] | Run command B if A failed |
 | [command-a] & | Run command A in background |
 
-
-### PIPING COMMANDS
+## PIPING COMMANDS
 
 | Key/Command | Description |
 | ----------- | ----------- |
 | [command-a] \| [command-b] | Run command A and then pass the result to command B e.g ps auxwww \| grep google |
 
-
-### COMMAND HISTORY
+## COMMAND HISTORY
 
 | Key/Command | Description |
 | ----------- | ----------- |
@@ -101,9 +76,9 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | !! |  Execute the last command typed |
 | !!:p |  Print to the console the last command typed |
 
-### FILE MANAGEMENT
+## FILE MANAGEMENT
 
-| Key/Command | Description |
+| Command | Description |
 | ----------- | ----------- |
 | touch [file] |   Create a new file |
 | pwd | Full path to working directory |
@@ -123,9 +98,9 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | pbpaste | Paste clipboard contents |
 | pbpaste > [file] | Paste clipboard contents into file, `pbpaste > paste-test.txt` |
 
-### DIRECTORY MANAGEMENT
+## DIRECTORY MANAGEMENT
 
-| Key/Command | Description |
+| Command | Description |
 | ----------- | ----------- |
 | mkdir [dir] | Create new directory |
 | mkdir -p [dir]/[dir] |  Create nested directories |
@@ -136,9 +111,9 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | [command] >> [file] | Append output to existing file |
 | [command] < [file] |  Tell command to read content from a file |
 
-### SEARCH
+## SEARCH
 
-| Key/Command | Description |
+| Command | Description |
 | ----------- | ----------- |
 | find [dir] -name [search_pattern] | Search for files, e.g. `find /Users -name "file.txt"` |
 | grep [search_pattern] [file] | Search for all lines that contain the pattern, e.g. `grep "Tom" file.txt` |
@@ -148,9 +123,9 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | mdfind [search_pattern] | Spotlight search for files (names, content, other metadata), e.g. `mdfind skateboard` |
 | mdfind -onlyin [dir] -name [pattern] | Spotlight search for files named like pattern in the given directory |
 
-### HELP
+## HELP
 
-| Key/Command | Description |
+| Command | Description |
 | ----------- | ----------- |
 | [command] -h |  Offers help |
 | [command] --help | Offers help |
@@ -158,9 +133,3 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | man [command] |  Show the help manual for [command] |
 | whatis [command] | Gives a one-line description of [command] |
 | apropos [search-pattern] | Searches for command with keywords in description |
-
-### GIT
-
-For Git related commmands you can check my [git-basics-cheatsheet](https://github.com/0nn0/git-basics-cheatsheet)
-
-
